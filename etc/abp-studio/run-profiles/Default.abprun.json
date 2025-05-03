@@ -1,0 +1,15 @@
+﻿{
+  "applications": {
+    "Tracka.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44313",
+      "path": "../../../src/Tracka.Web/Tracka.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "healthCheckEndpoint": "/health-status",
+      "healthUiEndpoint": "/health-ui",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}
