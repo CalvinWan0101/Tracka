@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Tracka.TransactionRecords.TransactionRecordCategorys;
+using Tracka.TransactionRecordCategorys;
 
-namespace Tracka.EntityFrameworkCore.TypeConfigurations.TransactionRecords;
+namespace Tracka.EntityFrameworkCore.TypeConfigurations.TransactionRecordCategorys;
 
 internal class TransactionRecordCategoryMapper : BaseMapper<TransactionRecordCategory> {
     public TransactionRecordCategoryMapper() : base("TransactionRecordCategorys") { }

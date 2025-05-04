@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Tracka.Books;
+using Tracka.TransactionRecordCategorys;
 using Tracka.TransactionRecords;
-using Tracka.TransactionRecords.TransactionRecordCategorys;
-using Tracka.TransactionRecords.TransactionRecordTags;
+using Tracka.TransactionRecordTags;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
 using Volo.Abp.BlobStoring.Database.EntityFrameworkCore;
